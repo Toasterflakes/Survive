@@ -1,0 +1,19 @@
+to compile: "make" press enter
+
+to run: "make run" press enter
+
+to clean .o files and executables: "make clean" press enter
+
+
+=====================================================================================
+
+
+This program is a day(turn) based survival game. Scavange for resources and 
+manage your items efficiently in order to survive long enough for someone to 
+recue your party. You begin day one with 4 items in your backpack that can be used 
+to heal each of the people in your party. Each day, your hp decreases slightly
+(a rand() algorithm seeded with the "time.h" library is used to /randomize/ within
+a set field of values). 
+You also have the oportunity to send someone out to look for items.
+If you survive for 30 days, you will be saved. Otherwise, you die. 
+Good luck.
